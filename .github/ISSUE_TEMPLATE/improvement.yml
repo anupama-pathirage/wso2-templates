@@ -24,13 +24,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: implementation
-    attributes:
-      label: Implementation
-      description: Suggest an approach or design for this improvement.
-    validations:
-      required: false
-  - type: textarea
     id: related
     attributes:
       label: Related Issues
