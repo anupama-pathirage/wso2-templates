@@ -16,17 +16,3 @@ body:
       description: Enter product/component version.
     validations:
       required: false
-  - type: textarea
-    id: related
-    attributes:
-      label: Related Issues
-      description: Mention if any related issues.
-    validations:
-      required: false
-  - type: input
-    id: suggested
-    attributes:
-      label: Suggested Labels
-      description: Mention if any suggested labels.
-    validations:
-      required: false
