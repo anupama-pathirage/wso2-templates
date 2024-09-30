@@ -3,10 +3,17 @@ description: Suggest an improvement to the product.
 labels: ["Type/Improvement"]
 body:
   - type: textarea
-    id: solution
+    id: limitation
     attributes:
-      label: Solution
-      description: Describe the the current limitation and the improvement you suggest.
+      label: Current Limitation
+      description: Describe the the current limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: Describe the the improvement you suggest.
     validations:
       required: true
   - type: input
