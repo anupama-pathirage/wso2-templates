@@ -3,13 +3,6 @@ description: Create an issue if something does not work as expected.
 labels: ["Type/Bug"]
 body:
   - type: textarea
-    id: description
-    attributes:
-      label: Describe the issue
-      description: Description of the issue you have faced.
-    validations:
-      required: true
-  - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
