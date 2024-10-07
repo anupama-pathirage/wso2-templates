@@ -5,6 +5,13 @@ body:
   - type: textarea
     id: steps
     attributes:
+      label: Describe the issue
+      description: Description of the issue you have faced.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
       label: Steps to Reproduce
       description: List the steps you followed when you encountered the issue. Provide sample source code to reproduce the issue where applicable.
     validations:
