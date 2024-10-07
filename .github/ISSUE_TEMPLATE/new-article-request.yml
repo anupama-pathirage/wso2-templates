@@ -1,0 +1,49 @@
+name: "New Article Request"
+description: Request a new article on a topic or concept that is not available in the current documentation.
+title: "[New Article]: "
+labels: ["doc-idea"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Request a New Article"
+  - type: markdown
+    attributes:
+      value: "Please describe the new article you are requesting."
+  - type: input
+    id: topic
+    attributes:
+      label: Article Title or Topic
+      description: Suggest a short title or topic for the new article.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### Why is this Article Needed?"
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Reason for the Article
+      description: Explain why this article is necessary and what problem it solves.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### Article Abstract"
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Article Abstract
+      description: Write a brief abstract outlining the key points or value the article will provide.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### Search and Discovery"
+  - type: textarea
+    id: searches
+    attributes:
+      label: Search Efforts
+      description: >
+        Share any search terms or queries you used to find this information. This helps improve content visibility and ensures the right readers can find it.
+    validations:
+      required: false
